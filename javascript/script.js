@@ -57,65 +57,6 @@ function scrollToTop() {
   })
 }
 
-// Code to show icons upon hover of products in Homepage
-document.querySelectorAll(".prod-card").forEach(card => {
-  card.children[0].style.visibility = 'hidden';
-})
-
-document.querySelectorAll(".prod-card").forEach(card => {
-  card.addEventListener('mouseover', func => {
-    card.children[1].style.opacity = 0.2;
-    card.children[0].style.visibility = 'visible';
-  })
-})
-
-document.querySelectorAll(".prod-card").forEach(card => {
-  card.addEventListener('mouseout', func => {
-    card.children[1].style.opacity = 1;
-    card.children[0].style.visibility = 'hidden';
-  })
-})
-
-// Code to make individual icons change color on hover
-// a) Heart icon
-document.querySelectorAll(".prod-card").forEach(img => {
-  let img_1 = img.childNodes[1].childNodes[1].childNodes[0]
-  img_1.addEventListener('mouseover', func2 => {
-    img_1.src = 'Images/heart-icon.png';
-  })
-});
-document.querySelectorAll(".prod-card").forEach(img => {
-  let img_1 = img.childNodes[1].childNodes[1].childNodes[0]
-  img_1.addEventListener('mouseout', func2 => {
-    img_1.src = 'Images/heart-icon-trans.png';
-  })
-});
-// b) Eye icon
-document.querySelectorAll(".prod-card").forEach(img => {
-  let img_2 = img.childNodes[1].childNodes[3].childNodes[0]
-  img_2.addEventListener('mouseover', func3 => {
-    img_2.src = 'Images/eye-icon.png';
-  })
-});
-document.querySelectorAll(".prod-card").forEach(img => {
-  let img_2 = img.childNodes[1].childNodes[3].childNodes[0]
-  img_2.addEventListener('mouseout', func3 => {
-    img_2.src = 'Images/eye-icon-trans.png';
-  })
-});
-// b) Cart icon
-document.querySelectorAll(".prod-card").forEach(img => {
-  let img_3 = img.childNodes[1].childNodes[5].childNodes[0]
-  img_3.addEventListener('mouseover', func4 => {
-    img_3.src = 'Images/shopping-icon.png';
-  })
-});
-document.querySelectorAll(".prod-card").forEach(img => {
-  let img_3 = img.childNodes[1].childNodes[5].childNodes[0]
-  img_3.addEventListener('mouseout', func4 => {
-    img_3.src = 'Images/shopping-icon-trans.png';
-  })
-});
 
 
 // ---------------------------------------------------------------------------------------------------------------------------
