@@ -325,6 +325,7 @@
 #bottom-header-navbar .container-fluid {
     width: 75vw;
 
+
 }
 
 .dropbtn {
@@ -425,8 +426,9 @@
 }
 
 #signin {
-    width: 7em;
+    width: 8em;
     height: 2.5em;
+    
     border-radius: 2em;
     background-color: #87CEEB;
     color: white;
@@ -2473,4 +2475,670 @@ footer .bottom-footer .row .col .social-holder img {
 
 /* ------------------------ END OF HOME PAGE CSS ----------------------- */
 
+/* ------------------------ START OF PRODUCT LIST PAGE CSS ----------------------- */
+
+/* Start of Product list decor */
+
+#main {
+    width: 75vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 24r;
+    grid-template-rows: 1fr;
+}
+
+.top-box select {
+    border: 1px solid lightgrey;
+    padding: 0.3em;
+    font-size: 0.8em;
+}
+
+#main .left-main-container {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-self: center;
+}
+
+#main .right-main-container {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 60vw;
+    position: relative;
+}
+
+#main .right-main-container .icons {
+    position: absolute;
+    top: 6em;
+    left: 2em;
+    z-index: 100;
+}
+
+#main .right-main-container .icons:hover {
+    cursor: pointer;
+}
+
+#main .right-main-container .icons img {
+    width: auto;
+    height: 4.5em;
+}
+
+#main .left-main-container input[type='checkbox']+label {
+    font-size: 0.9vw;
+    color: grey;
+    margin-left: 0.3em;
+}
+
+#main .left-main-container input[type='radio']+label {
+    font-size: 0.9vw;
+    color: grey;
+    margin-left: 0.3em;
+}
+
+.offer {
+    color: #87CEEB;
+    font-weight: bold;
+}
+
+#main .right-main-container .row .col .card-title {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#main .right-main-container .row .col .card-text {
+    font-size: 0.8vw;
+}
+
+#main .right-main-container .row .col .stars-group img {
+    width: auto;
+    height: 1.2vw;
+    margin-right: 0.2em;
+}
+
+#main.right-main-container .row .col .card {
+    width: 55vw;
+    height: auto;
+}
+
+
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    #main .left-main-container input[type='checkbox']+label {
+        font-size: 1vw;
+    }
+
+    #main .left-main-container input[type='radio']+label {
+        font-size: 1vw;
+    }
+
+    #main .left-main-container {
+        width: 15vw;
+    }
+
+    #main .right-main-container {
+        width: 70vw;
+    }
+
+    #main .right-main-container .row .col .card-title {
+        font-size: 0.9em;
+    }
+
+    #main .right-main-container .row .col .card-text {
+        font-size: 0.9vw;
+    }
+
+    #main .right-main-container .icons img {
+        width: auto;
+        height: 6vw;
+    }
+
+    #main .right-main-container .icons {
+        position: absolute;
+        top: 6em;
+        left: 2em;
+        z-index: 100;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    #main .left-main-container {
+        width: 20vw;
+    }
+
+    #main .right-main-container {
+        width: 65vw;
+    }
+
+    #main .right-main-container .row .col .card-title {
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+
+    #main .right-main-container .row .col .card-text {
+        font-size: 1.4vw;
+    }
+
+    #main .right-main-container .row .col .stars-group img {
+        width: auto;
+        height: 1.6vw;
+    }
+
+    #main .left-main-container input[type='checkbox']+label {
+        font-size: 1.3vw;
+    }
+
+    #main .left-main-container input[type='radio']+label {
+        font-size: 1.3vw;
+    }
+
+    #main .right-main-container .icons img {
+        width: auto;
+        height: 9vw;
+    }
+
+    #main .right-main-container .icons {
+        position: absolute;
+        top: 4.5em;
+        left: 1.5em;
+        z-index: 100;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:767px) {
+    #main .left-main-container {
+        width: 25vw;
+    }
+
+    #main .right-main-container {
+        width: 50vw;
+    }
+
+    #main .right-main-container .row .col .card-title {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    #main .right-main-container .row .col .card-text {
+        font-size: 2vw;
+    }
+
+    #main .right-main-container .row .col .stars-group img {
+        width: auto;
+        height: 2.3vw;
+    }
+
+    #main .left-main-container input[type='checkbox']+label {
+        font-size: 1.8vw;
+    }
+
+    #main .left-main-container input[type='radio']+label {
+        font-size: 1.8vw;
+    }
+
+    #main .right-main-container .icons img {
+        width: auto;
+        height: 11vw;
+    }
+
+    #main .right-main-container .icons {
+        position: absolute;
+        top: 10em;
+        left: 4em;
+        z-index: 100;
+    }
+
+    .top-box select {
+        border: 1px solid lightgrey;
+        padding: 0.3em;
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width:471px) and (max-width:576px) {
+    .top-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .top-box h5 {
+        font-size: 1.3em;
+    }
+
+    .left-main-container h5 {
+        font-size: 1em;
+    }
+
+    .left-main-container h6 {
+        font-size: 0.8em;
+    }
+
+    #main .left-main-container {
+        width: 25vw;
+    }
+
+    #main .right-main-container {
+        width: 60vw;
+    }
+
+    #main .right-main-container .row .col .card-title {
+        font-size: 4vw;
+        font-weight: bold;
+    }
+
+    #main .right-main-container .row .col .card-text {
+        font-size: 2.5vw;
+    }
+
+    #main .right-main-container .row .col .stars-group img {
+        width: auto;
+        height: 3.2vw;
+    }
+
+    #main .left-main-container input[type='checkbox']+label {
+        font-size: 1.9vw;
+    }
+
+    #main .left-main-container input[type='radio']+label {
+        font-size: 1.9vw;
+    }
+
+    #main .right-main-container .icons img {
+        width: auto;
+        height: 13vw;
+    }
+
+    #main .right-main-container .icons {
+        position: absolute;
+        top: 7em;
+        left: 3em;
+        z-index: 100;
+    }
+
+}
+
+@media screen and (min-width:375px) and (max-width:470px) {
+    .top-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left-main-container h5 {
+        font-size: 0.8em;
+    }
+
+    .left-main-container h6 {
+        font-size: 0.6em;
+    }
+
+    #main .left-main-container {
+        width: 25vw;
+    }
+
+    #main .right-main-container {
+        width: 60vw;
+    }
+
+    #main .right-main-container .row .col .card-title {
+        font-weight: bold;
+    }
+
+    #main .right-main-container .row .col .card-text {
+        font-size: 2.6vw;
+    }
+
+    #main .right-main-container .row .col .stars-group img {
+        width: auto;
+        height: 3.2vw;
+    }
+
+    #main .left-main-container input[type='checkbox']+label {
+        font-size: 1.9vw;
+    }
+
+    #main .left-main-container input[type='radio']+label {
+        font-size: 1.9vw;
+    }
+
+    #main .right-main-container .icons img {
+        width: auto;
+        height: 14vw;
+    }
+
+    #main .right-main-container .icons {
+        position: absolute;
+        top: 4.4em;
+        left: 1.6em;
+        z-index: 100;
+    }
+
+    .top-box h5 {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width:375px) {
+    #main .left-main-container {
+        width: 20vw;
+    }
+
+    #main .right-main-container {
+        width: 60vw;
+    }
+
+    #main .right-main-container .row .col .card-title {
+        font-size: 3.3vw;
+        font-weight: bold;
+    }
+
+    #main .right-main-container .row .col .card-text {
+        font-size: 2.5vw;
+    }
+
+    #main .right-main-container .row .col .stars-group img {
+        width: auto;
+        height: 3.2vw;
+    }
+
+    #main .left-main-container input[type='checkbox']+label {
+        font-size: 1.9vw;
+    }
+
+    #main .left-main-container input[type='radio']+label {
+        font-size: 1.9vw;
+    }
+
+    #main .right-main-container .icons img {
+        width: auto;
+        height: 13vw;
+    }
+
+    #main .right-main-container .icons {
+        position: absolute;
+        top: 4.5em;
+        left: 0.5em;
+        z-index: 100;
+    }
+
+    .top-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left-main-container h5 {
+        font-size: 0.8em;
+    }
+
+    .left-main-container h6 {
+        font-size: 0.6em;
+    }
+}
+
+/* ------------------------ END OF PRODUCT LIST PAGE CSS ----------------------- */
+
+
+
+/* ------------------------ START OF MY PROFILE PAGE CSS ----------------------- */
+
+/* START OF MY PROFILE DECOR */
+
+.my-profile {
+    height: auto;
+    width: 100vw;
+}
+
+.mega-container .grid-column-2 .flex-item {
+    width: 30vw;
+}
+
+.mega-container .grid-column-2 .key {
+    color: grey;
+    font-size: 1vw;
+}
+
+.mega-container .grid-column-2 .value {
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+.mega-container .grid-column-2 .edit-button {
+    border: none;
+    background-color: #87CEEB;
+    border-radius: 1.4em;
+    padding: 0.5em 2.5em;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 2em;
+    width: 10em;
+}
+
+.mega-container .grid-column-2 .edit-button:hover {
+    background-color: white;
+    color: #87CEEB;
+    border: 1px solid lightgray;
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .mega-container .grid-column-2 .key {
+        color: grey;
+        font-size: 1.1vw;
+    }
+
+    .mega-container .grid-column-2 .value {
+        font-weight: 500;
+        font-size: 1.1vw;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .mega-container .grid-column-2 .key {
+        color: grey;
+        font-size: 1.6vw;
+    }
+
+    .mega-container .grid-column-2 .value {
+        font-weight: 500;
+        font-size: 1.6vw;
+    }
+
+    .mega-container .grid-column-2 .edit-button {
+        height: 4.5vw;
+        width: 14.5vw;
+    }
+
+    .mega-container .grid-column-2 .flex-item {
+        width: 40vw;
+    }
+}
+
+@media screen and (min-width:610px) and (max-width:767px) {
+    .mega-container .grid-column-2 h3 {
+        text-align: center;
+        font-size: 3vw;
+        margin-top: 2em;
+    }
+
+    .mega-container .grid-column-2 .key {
+        color: grey;
+        font-size: 2vw;
+    }
+
+    .mega-container .grid-column-2 .value {
+        font-weight: 500;
+        font-size: 2vw;
+    }
+
+    .mega-container .grid-column-2 .edit-button {
+        height: 6vw;
+        width: 18.5vw;
+        margin: 0 auto;
+    }
+
+    .mega-container .grid-column-2 .flex-item {
+        width: 55vw;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:609px) {
+    .mega-container .grid-column-2 h3 {
+        text-align: center;
+        font-size: 4vw;
+        margin-top: 2em;
+    }
+
+    .mega-container .grid-column-1 .profile p {
+        font-size: 0.6em;
+    }
+
+    .mega-container .grid-column-1 .list-group a {
+        font-size: 0.6em;
+    }
+
+    .mega-container .grid-column-2 .key {
+        color: grey;
+        font-size: 2vw;
+    }
+
+    .mega-container .grid-column-2 .value {
+        font-weight: 500;
+        font-size: 2vw;
+    }
+
+    .mega-container .grid-column-2 .edit-button {
+        height: 7.5vw;
+        width: 20.5vw;
+        margin: 0 auto;
+    }
+
+    .mega-container .grid-column-2 .flex-item {
+        width: 60vw;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 399px) and (max-width:479px) {
+    .mega-container .grid-column-1 .profile p {
+        font-size: 0.5em;
+    }
+
+    .mega-container .grid-column-1 .list-group a {
+        font-size: 0.5em;
+    }
+
+    .mega-container .grid-column-2 .key {
+        color: grey;
+        font-size: 2.9vw;
+    }
+
+    .mega-container .grid-column-2 .value {
+        font-weight: 500;
+        font-size: 2.9vw;
+    }
+
+    .mega-container .grid-column-2 .edit-button {
+        height: 8.5vw;
+        width: 25.5vw;
+        margin: 0 auto;
+    }
+
+    .mega-container .grid-column-2 .flex-item {
+        width: 70vw;
+        margin: 0 auto;
+    }
+
+    .mega-container .grid-column-1 .my-account-heading {
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:398px) {
+    .mega-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.05fr 1fr;
+        width: 75vw;
+        margin: 0 1em;
+    }
+
+    .mega-container .grid-column-1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        width: 90vw;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-top: 2em;
+    }
+
+    .mega-container .grid-column-2 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2em;
+    }
+    .mega-container .grid-column-1 .list-items {
+        color: grey;
+        line-height: 1.8em;
+        padding: 0.2em 0.5em;
+        font-size: 2vw;
+        text-decoration: none;
+    }
+    
+    .mega-container .grid-column-1 h6 {
+        font-size: 2.3vw;
+    }
+    
+    .mega-container .grid-column-1 .profile p {
+        color: grey;
+        font-size: 1.8vw;
+    }
+
+    .mega-container .grid-column-1 .list-group a {
+        font-size: 0.5em;
+    }
+    .mega-container .grid-column-1 .list-item-active {
+        color: #87CEEB;
+        background-color: rgb(226, 226, 226);
+    }
+    .mega-container .grid-column-2 .key {
+        color: grey;
+        font-size: 3.1vw;
+    }
+
+    .mega-container .grid-column-2 .value {
+        font-weight: 500;
+        font-size: 3.1vw;
+    }
+
+    .mega-container .grid-column-2 .edit-button {
+        height: 10vw;
+        width: 28.5vw;
+    }
+
+    .mega-container .grid-column-2 .flex-item {
+        width: 70vw;
+    }
+
+    .mega-container .grid-column-1 .my-account-heading {
+        font-size: 2.5vw;
+    }
+}
+
+
+/* ------------------------ END OF MY PROFILE PAGE CSS ----------------------- */
 
