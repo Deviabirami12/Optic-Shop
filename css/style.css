@@ -7553,3 +7553,360 @@ footer .bottom-footer .row .col .social-holder img {
 }
 
 /* ------------------------ END OF FAQ PAGE CSS ----------------------- */
+
+
+/* ------------------------ START OF MY PROFILE PAGE CSS ----------------------- */
+
+/* START OF MY PROFILE DECOR */
+
+.my-profile {
+    height: auto;
+    width: 100vw;
+}
+
+.mega-container .grid-column-2 .flex-item {
+    width: 30vw;
+}
+
+.mega-container .grid-column-2 .key {
+    color: grey;
+    font-size: 1vw;
+}
+
+.mega-container .grid-column-2 .value {
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+.mega-container .grid-column-2 .edit-button {
+    border: none;
+    background-color: #87CEEB;
+    border-radius: 1.4em;
+    padding: 0.5em 2.5em;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 2em;
+    width: 10em;
+}
+
+.mega-container .grid-column-2 .edit-button:hover {
+    background-color: white;
+    color: #87CEEB;
+    border: 1px solid lightgray;
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .mega-container .grid-column-2 .key {
+        color: grey;
+        font-size: 1.1vw;
+    }
+
+    .mega-container .grid-column-2 .value {
+        font-weight: 500;
+        font-size: 1.1vw;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .mega-container .grid-column-2 .key {
+        color: grey;
+        font-size: 1.6vw;
+    }
+
+    .mega-container .grid-column-2 .value {
+        font-weight: 500;
+        font-size: 1.6vw;
+    }
+
+    .mega-container .grid-column-2 .edit-button {
+        height: 4.5vw;
+        width: 14.5vw;
+    }
+
+    .mega-container .grid-column-2 .flex-item {
+        width: 40vw;
+    }
+}
+
+@media screen and (min-width:610px) and (max-width:767px) {
+    .mega-container .grid-column-2 h3 {
+        text-align: center;
+        font-size: 3vw;
+        margin-top: 2em;
+    }
+
+    .mega-container .grid-column-2 .key {
+        color: grey;
+        font-size: 2vw;
+    }
+
+    .mega-container .grid-column-2 .value {
+        font-weight: 500;
+        font-size: 2vw;
+    }
+
+    .mega-container .grid-column-2 .edit-button {
+        height: 6vw;
+        width: 18.5vw;
+        margin: 0 auto;
+    }
+
+    .mega-container .grid-column-2 .flex-item {
+        width: 55vw;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:609px) {
+    .mega-container .grid-column-2 h3 {
+        text-align: center;
+        font-size: 4vw;
+        margin-top: 2em;
+    }
+
+    .mega-container .grid-column-1 .profile p {
+        font-size: 0.6em;
+    }
+
+    .mega-container .grid-column-1 .list-group a {
+        font-size: 0.6em;
+    }
+
+    .mega-container .grid-column-2 .key {
+        color: grey;
+        font-size: 2vw;
+    }
+
+    .mega-container .grid-column-2 .value {
+        font-weight: 500;
+        font-size: 2vw;
+    }
+
+    .mega-container .grid-column-2 .edit-button {
+        height: 7.5vw;
+        width: 20.5vw;
+        margin: 0 auto;
+    }
+
+    .mega-container .grid-column-2 .flex-item {
+        width: 60vw;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 399px) and (max-width:479px) {
+    .mega-container .grid-column-1 .profile p {
+        font-size: 0.5em;
+    }
+
+    .mega-container .grid-column-1 .list-group a {
+        font-size: 0.5em;
+    }
+
+    .mega-container .grid-column-2 .key {
+        color: grey;
+        font-size: 2.9vw;
+    }
+
+    .mega-container .grid-column-2 .value {
+        font-weight: 500;
+        font-size: 2.9vw;
+    }
+
+    .mega-container .grid-column-2 .edit-button {
+        height: 8.5vw;
+        width: 25.5vw;
+        margin: 0 auto;
+    }
+
+    .mega-container .grid-column-2 .flex-item {
+        width: 70vw;
+        margin: 0 auto;
+    }
+
+    .mega-container .grid-column-1 .my-account-heading {
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:398px) {
+    .mega-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.05fr 1fr;
+        width: 75vw;
+        margin: 0 1em;
+    }
+
+    .mega-container .grid-column-1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        width: 90vw;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-top: 2em;
+    }
+
+    .mega-container .grid-column-2 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2em;
+    }
+    .mega-container .grid-column-1 .list-items {
+        color: grey;
+        line-height: 1.8em;
+        padding: 0.2em 0.5em;
+        font-size: 2vw;
+        text-decoration: none;
+    }
+    
+    .mega-container .grid-column-1 h6 {
+        font-size: 2.3vw;
+    }
+    
+    .mega-container .grid-column-1 .profile p {
+        color: grey;
+        font-size: 1.8vw;
+    }
+
+    .mega-container .grid-column-1 .list-group a {
+        font-size: 0.5em;
+    }
+    .mega-container .grid-column-1 .list-item-active {
+        color: #87CEEB;
+        background-color: rgb(226, 226, 226);
+    }
+    .mega-container .grid-column-2 .key {
+        color: grey;
+        font-size: 3.1vw;
+    }
+
+    .mega-container .grid-column-2 .value {
+        font-weight: 500;
+        font-size: 3.1vw;
+    }
+
+    .mega-container .grid-column-2 .edit-button {
+        height: 10vw;
+        width: 28.5vw;
+    }
+
+    .mega-container .grid-column-2 .flex-item {
+        width: 70vw;
+    }
+
+    .mega-container .grid-column-1 .my-account-heading {
+        font-size: 2.5vw;
+    }
+}
+
+
+/* ------------------------ END OF MY PROFILE PAGE CSS ----------------------- */
+
+/* ------------------------ START OF EDIT PROFILE PAGE CSS ----------------------- */
+
+
+
+/* START OF EDIT PROFILE DECOR */
+.edit-profile-form {
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.male,
+.female {
+    cursor: pointer;
+}
+
+.button-group {
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.button-group button:first-child {
+    border: 1px solid lightgrey;
+    color: #87CEEB;
+    font-weight: bold;
+}
+
+.edit-profile-form .male,
+.edit-profile-form .female {
+    padding: 1vw;
+    margin-top: 1em;
+}
+
+.button-group button:first-child:hover {
+    background-color: rgb(204, 202, 202);
+    color: rgb(73, 71, 71);
+}
+
+.button-group button:last-child {
+    background-color: #87CEEB;
+    color: white;
+    font-weight: bold;
+}
+
+.button-group button:last-child:hover {
+    background-color: transparent;
+    border: 1px solid #87CEEB;
+    color: #87CEEB;
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .edit-profile-form {
+        width: 75vw;
+        margin: 0 auto;
+    }
+
+    .button-group {
+        width: 75vw;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:460px) and (max-width:575px) {
+    .edit-profile-form {
+        width: 75vw;
+        margin: 0 auto;
+    }
+
+    .button-group {
+        width: 100vw;
+        margin: 0 auto;
+    }
+
+    .button-group button {
+        font-size: 2.7vw;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:459px) {
+    .edit-profile-form {
+        width: 100vw;
+        margin: 0 auto;
+    }
+
+    .button-group {
+        width: 100vw;
+        margin: 0 auto;
+    }
+
+    .button-group button {
+        font-size: 3vw;
+    }
+
+    .edit-profile .mega-container {
+        height: 70em;
+    }
+
+}
+
+
+/* ------------------------ END OF EDIT PROFILE PAGE CSS ----------------------- */
