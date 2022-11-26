@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Optic Shop - Sellers</title>   
+    <title>Optic Shop - FAQ</title>
+   
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -17,7 +19,7 @@
         <div class="top-header" role='top header' id="back-to-top">
             <div class="social-img-holder" role='image holder'>
                 <img src="Images/fb-footer.png" alt="facebook-icon" role='icon' aria-label='facebook icon'>
-                <img src="Images/ins-footer.png" alt="instagram-icon" role='icon' aria-label='instagram icon'>
+                <img src="Images/yt-footer.png" alt="youtube-icon" role='icon' aria-label='youtube icon'>
                 <img src="Images/tw-footer.png" alt="twitter-icon" role='icon' aria-label='twitter icon'>
             </div>
             <div class="search-box" role='search' id="search-box">
@@ -80,7 +82,7 @@
                                     <div class="dropdown-content2 mt-2">
                                         <a href="myorder.html">My Orders</a>
                                         <a href="Trackorder.html">Track Orders</a>
-                                        <a href="Returnorder.html">Return Orders</a>
+                                        
                                       </div>
                                 </li>
                                 <li class="nav-item">
@@ -90,7 +92,9 @@
                                     <a class="nav-link" href="Wishlist.html">Wishlist</a>
                                     <span class="badge" id="wishlist-badge"></span>
                                 </li>
-                                
+                                <li class="nav-item">
+                                    <a class="nav-link ml-xl-3 ml-md-0" href="Myprofile.html">Profile</a>
+                                </li>
                                 <li class="nav-item notification">
                                     <a class="nav-link" href="cartpage.html">Cart</a>
                                     <span class="badge" id="cart-badge"></span>
@@ -200,6 +204,7 @@
                             <div class="modal-social-btn">
                                 <a class="btn text-white" style="background-color: #3b5998" href="#!"
                                     role="button"><span class="bi bi-facebook">FACEBOOK</span></a>
+                               
                                 <a class="btn text-white" style="background-color: #dd4b39" href="#!"
                                     role="button"><span class="bi bi-google">GOOGLE</span></a>
                             </div>
@@ -214,97 +219,124 @@
     <a class='back-to-top-btn float-right' id="scroll-btn" role='button' aria-label='back to top button'>
         <img src="Images/upblue.png" alt="goto top" role="icon" aria-label='back to top image'>
     </a>
-    <!-- End of Bottom Header -->
 
-    <!-- Start of Seller Section -->
-    <div class="seller-grid-container">
-        <div class="grid-column1">
-            <div class="top-container">
-                
-                <h2>Register in <br> less than <br> 15 minutes!</h2>
+    <!-- Start of FAQ section -->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb p-3">
+            <li class="breadcrumb-item"><a class='text-dark text-decoration-none' href="index.html">Home</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a class='active text-decoration-none'
+                    href="#">FAQ</a></li>
+        </ol>
+    </nav>
+
+    <div class="main-container2">
+        <aside class='left-main-container'>
+            <div class="issue-type">
+                <h5 class="mb-4">TYPE OF ISSUE</h5>
+                <p>Help with your Issues</p>
+                <p>Help with your Order</p>
+                <p>Help with other Issues</p>
             </div>
-            <div class="bottom-container">
-                <div class="first-group d-flex flex-column text-center">
-                    <div class="circle circle-1">
-                        <img class='img-c img-responsive' src="Images/Indian-flag.png" alt="Indian Flag">
-                    </div>
-                    <br>
-                    <span class="first-grp-img-desc">Sell 24x7 across<br>3000 cities and towns</span>
-                </div>
-                <div class="second-group d-flex flex-column text-center">
-                    <div class="circle circle-2">
-                        <img class='img-c img-responsive' src="Images/Monitor.png" alt="Monitor">
-                    </div>
-                    <br>
-                    <span class="first-grp-img-desc">Millions of users and<br>3,00,000 sellers<br>across
-                        India</span>
-                </div>
-                <div class="third-group d-flex flex-column text-center">
-                    <div class="circle circle-3">
-                        <img class='img-c img-responsive' src="Images/Payment-time.png" alt="Payment-time">
-                    </div>
-                    <br>
-                    <span class="first-grp-img-desc">Quick payments and<br>transparent processes</span>
-                </div>
+            <div class="help-topics mt-lg-3">
+                <h5 class="mb-4">HELP TOPICS</h5>
+                <p>Order Summary</p>
+                <p>Order Status</p>
+                <p>Order date</p>
+                <p>Payment Mode</p>
+                <p>Shopping</p>
+                <p>Delivery Options</p>
+                <p>Return Policy</p>
+                <p>Wallet</p>
+                <p>Cancellations</p>
+                <p>Other</p>
             </div>
-        </div>
-        <div class="grid-column2">
-            <div class="form-container">
-                <div class="form-header">
-                    REGISTER TODAY
-                </div>
-                <div class="form-body">
-                    <form class='d-flex flex-column'>
-                        <div class="form-group">
-                            <label for="exampleInputName1">Name</label>
-                            <input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputMobile1">Mobile Number</label>
-                            <input type="tel" class="form-control" id="exampleInputMobile1"
-                                aria-describedby="mobileHelp"
-                                pattern="[7-9]{1}[0-9]{1}[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]">
-                        </div>
-                        <div
-                            class="form-select form-group d-md-flex flex-md-row d-sm-flex flex-sm-column justify-content-between">
-                            <label for="exampleFormControlSelect1">Categories of Products</label>
-                            <select class="form-control form-control-sm  w-50-lg w-100-sm small"
-                                id="exampleFormControlSelect1">
-                                <option>Nothing Selected</option>
-                                <option>Power Glass</option>
-                                <option>Sun Glass</option>
-                                <option>System Glass</option>
-                                
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1"
-                                placeholder="Password">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputConfirmPassword1">Confirm Password</label>
-                            <input type="password" class="form-control" id="exampleInputConfirmPassword1"
-                                placeholder="Password">
-                        </div>
-                        <button type="submit" class="btn btn-orange font-weight-bold ">SUBMIT</button>
-                    </form>
-                </div>
-                <div class="form-footer">
-                    <p class='text-white'>OR</p>
-                    <div class="para-1">
-                        <p>CALL US NOW +91 9987678564 <br> <small>BETWEEN 11AM - 8PM(IST)</small></p>
+        </aside>
+        <div class="right-main-container">
+            <h4>HELP WITH YOUR ORDER</h4>
+            <div class="accordion mt-4" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                            <button type="button" class="btn btn-block text-left d-flex flex-row-reverse align-items-center justify-content-between collapsed" data-toggle="collapse" data-target="#collapseOne"><i
+                                    class="fa fa-plus"></i> Do I need to create an
+                                    account in order to shop with
+                                    you?</button>
                     </div>
-                    <div class="para-2">
-                        <p>EMAIL US ON SELL@LOREUMIPSEUM.COM</p>
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p>No, you don't need to. You can make purchases and check out as a guest everytime 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                            <button type="button" class="btn btn-block text-left d-flex flex-row-reverse align-items-center justify-content-between collapsed" data-toggle="collapse"
+                                data-target="#collapseTwo"><i class="fa fa-plus"></i> How do I create an account?</button>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p> It's as simple as clicking the sign in button which opens up a modal
+                                containing a create account tab. Fill your details and enter create account and that's it!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                            <button type="button" class="btn btn-block text-left d-flex flex-row-reverse align-items-center justify-content-between collapsed" data-toggle="collapse"
+                                data-target="#collapseThree"><i class="fa fa-plus"></i> How do I order?</button>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p> It's as simple as clicking the sign in button which opens up a modal
+                                containing a create account tab. Fill your details and enter create account and that's it!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                            <button type="button" class="btn btn-block text-left d-flex flex-row-reverse align-items-center justify-content-between collapsed" data-toggle="collapse"
+                                data-target="#collapseFour"><i class="fa fa-plus"></i> I have problems adding items to my
+                                shopping cart</button>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p> Kindly contact our customer care executive from 9Am to 9PM on all days or email us on customer.swagofindia@gomail.in
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFive">
+                            <button type="button" class="btn btn-block text-left d-flex flex-row-reverse align-items-center justify-content-between collapsed" data-toggle="collapse"
+                                data-target="#collapseFive"><i class="fa fa-plus"></i> I have not receieved my order yet. Who can I contact about this?</button>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p> Your order status will be visible in our track order page. If you have any issues, kindly contact our customer care executive from 9Am to 9PM on all days or email us on customer.swagofindiafaq@gomail.in
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingSix">
+                            <button type="button" class="btn btn-block text-left d-flex flex-row-reverse align-items-center justify-content-between collapsed" data-toggle="collapse"
+                                data-target="#collapseSix"><i class="fa fa-plus"></i> I want to return a product and get refund. What is the procedure? </button>
+                    </div>
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p> Your order status will be visible in our track order page. If you have want to initiate a return and refund, you can do that in the my orders page. If you have any issues, kindly contact our customer care executive from 9Am to 9PM on all days or email us on customer.swagofindia@gomail.in
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    
 
+    
     <!-- Start of Footer -->
     <footer class="mt-5">
         <div class="container-fluid w-75">
@@ -379,10 +411,11 @@
             </div>
         </div>
     </footer>
-    <script src="Javascript/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
+    <script src="Javascript/script.js"></script>
+    <script src="Javascript/jQuery.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
     </script>
@@ -395,5 +428,4 @@
         }
     </script>
 </body>
-
 </html>
