@@ -15,7 +15,7 @@
     align-items: center;
     max-width: 100vw;
     height: 4em;
-    background-color:#87CEEB;
+    background-color: #87CEEB;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -82,7 +82,7 @@
 
 .information-tab select {
     border-style: none;
-    background-color:#87CEEB;
+    background-color: #87CEEB;
     color: white;
     cursor: pointer;
 }
@@ -324,7 +324,6 @@
 /* START OF BOTTOM HEADER DECOR */
 #bottom-header-navbar .container-fluid {
     width: 75vw;
-
 }
 
 .dropbtn {
@@ -351,7 +350,7 @@
 }
 
 .dropdown-content::before{
-    content: url("../Images/skyblue-arrow.png");
+    content: url("../Images/orange-arrow.png");
     position: absolute;
     bottom: 7.8em;
     right: 2em;
@@ -377,12 +376,12 @@
     min-width: 90px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    border-top: 2px solid 	#87CEEB;
+    border-top: 2px solid #87CEEB;
     right: 0.1em;
 }
 
 .dropdown-content2::before{
-    content: url("../Images/skyblue-arrow.png");
+    content: url("../Images/orange-arrow.png");
     position: absolute;
     bottom: 11.3em;
     right: 2em;
@@ -411,7 +410,7 @@
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 
-.dropdown-content2 a:hover {background-color: rgb(255, 255, 255); color:#87CEEB; text-decoration: none;}
+.dropdown-content2 a:hover {background-color: rgb(255, 255, 255); color: #87CEEB; text-decoration: none;}
 
 .dropdown2:hover .dropdown-content2 {display: block;}
 
@@ -419,15 +418,13 @@
 
 
 .navbar-brand #logo_img {
-    width: 7em;
-    height: 4em;
-    
+    width: auto;
+    height: 3.5em;
 }
 
 #signin {
-    width: 10em;
+    width: 7em;
     height: 2.5em;
-    
     border-radius: 2em;
     background-color: #87CEEB;
     color: white;
@@ -449,7 +446,7 @@
 }
 
 .navbar-nav .nav-link:hover {
-    color:#87CEEB !important;
+    color: #87CEEB !important;
 }
 
 .notification {
@@ -481,7 +478,7 @@
 }
 
 .active {
-    color:#87CEEB !important;
+    color: #87CEEB !important;
     font-weight: bold !important;
 }
 
@@ -517,7 +514,7 @@
 
 .carousel-slider-text {
     position: absolute;
-    left: 9vw;
+    left: 34vw;
     bottom: 6vw;
 }
 
@@ -570,18 +567,18 @@
 }
 
 .required {
-    color:#87CEEB;
+    color: #87CEEB;
 }
 
-.btn-skyblue {
+.btn-orange {
     background-color: #87CEEB !important;
     color: white !important;
     font-weight: bold !important;
 }
 
-.btn-skyblue:hover {
+.btn-orange:hover {
     background-color: white !important;
-    color:#87CEEB !important;
+    color: #87CEEB !important;
     border: 1px solid #87CEEB !important;
 }
 
@@ -1171,6 +1168,8 @@
 
 /* END OF BOTTOM HEADER DECOR */
 
+
+
 /* BACK TO TOP BUTTON DECOR */
 .back-to-top-btn {
     float: right;
@@ -1470,6 +1469,8 @@
 }
 
 /* END OF CATEGORIES DECOR */
+
+
 
 /* START OF LATEST PRODUCTS DECOR */
 .latest-prods {
@@ -2109,6 +2110,7 @@
 
 
 /* END OF LATEST PRODUCTS DECOR */
+
 
 /* START OF FOOTER DECOR */
 footer .container-fluid .row .col h3 {
