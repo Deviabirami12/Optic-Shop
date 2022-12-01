@@ -319,8 +319,6 @@
 
 /* END OF TOP HEADER DECOR */
 
-
-
 /* START OF BOTTOM HEADER DECOR */
 #bottom-header-navbar .container-fluid {
     width: 75vw;
@@ -350,7 +348,7 @@
 }
 
 .dropdown-content::before{
-    content: url("../Images/orange-arrow.png");
+    content: url("../Images/skyblue-arrow.png");
     position: absolute;
     bottom: 7.8em;
     right: 2em;
@@ -381,7 +379,7 @@
 }
 
 .dropdown-content2::before{
-    content: url("../Images/orange-arrow.png");
+    content: url("../Images/skyblue-arrow.png");
     position: absolute;
     bottom: 11.3em;
     right: 2em;
@@ -514,7 +512,7 @@
 
 .carousel-slider-text {
     position: absolute;
-    left: 34vw;
+    left: 5vw;
     bottom: 6vw;
 }
 
@@ -560,7 +558,6 @@
 }
 
 /* MODAL STYLING */
-
 .modal-header img{
     width: auto;
     height: 5em;
@@ -570,13 +567,13 @@
     color: #87CEEB;
 }
 
-.btn-orange {
+.btn-skyblue {
     background-color: #87CEEB !important;
     color: white !important;
     font-weight: bold !important;
 }
 
-.btn-orange:hover {
+.btn-skyblue:hover {
     background-color: white !important;
     color: #87CEEB !important;
     border: 1px solid #87CEEB !important;
@@ -1046,7 +1043,7 @@
     }
 
     .carousel-slider-text {
-        position: absolute;
+        position:absolute;
         left: 34vw;
         bottom: 6vw;
     }
@@ -1145,6 +1142,7 @@
         position: absolute;
         left: 34vw;
         bottom: 6vw;
+       
     }
 
     .carousel-slider-text p:first-child {
@@ -1217,7 +1215,7 @@
     position: absolute;
     left: 11.5em;
     bottom: 4.5em;
-    text-align: center;
+    text-align: left;
 }
 
 .text-box h2 {
