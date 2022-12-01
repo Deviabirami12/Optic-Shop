@@ -118,13 +118,6 @@ document.querySelectorAll(".prod-card").forEach(img => {
   })
 });
 
-
-// ---------------------------------------------------------------------------
-
-
-// ---------------------------------------------------------------------------------------------------------------------------
-
-
 // Code for products listings page through JSON 
 
 let productsListUrl = 'https://my-json-server.typicode.com/Deviabirami12/Optic-Shop/db';
@@ -236,7 +229,6 @@ async function showProducts(Url) {
 };
 showProducts(productsListUrl);
 
-// ---------------------------------------------------------------------------------------------------------
 // cart page logic
 let products = new Set();
 let counter = 0;
@@ -511,8 +503,6 @@ xmlhttp.onreadystatechange = function() {
 xmlhttp.open("GET", "products.json", true);
 xmlhttp.send();
 
-
-// ----------------------------------------------------------------------------------------------------------------------------
 
 // wishlist page logic
 let fav_products = new Set();

@@ -13,22 +13,6 @@ $(document).ready(function () {
     });
 });
 
-
-
-// male female toggle button
-$(document).ready(function () {
-    $("#female-box").click(function(){
-        $("#tick-f").removeClass('d-none');
-        $("#tick-m").addClass('d-none');
-      });
-      
-      $("#male-box").click(function(){
-        $("#tick-m").removeClass('d-none');
-        $("#tick-f").addClass('d-none');
-      });
-});
-
-
 // caraousel scroll 
 $('.carousel .carousel-item').each(function(){
     var minPerSlide = 3;
